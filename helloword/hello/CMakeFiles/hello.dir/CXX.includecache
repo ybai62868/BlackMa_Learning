@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/BlackMa_Learning/helloword/hello/hello.cpp
+hello.h
+/Users/apple/Desktop/BlackMa_Learning/helloword/hello/hello.h
+
+/Users/apple/Desktop/BlackMa_Learning/helloword/hello/hello.h
+stdio.h
+-
+

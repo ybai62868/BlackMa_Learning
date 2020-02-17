@@ -1,0 +1,9 @@
+/Users/apple/Desktop/BlackMa_Learning/helloword/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/CMakeFiles/helloworld.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/hello/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/hello/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/hello/CMakeFiles/hello.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/world/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/world/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/BlackMa_Learning/helloword/world/CMakeFiles/world.dir
