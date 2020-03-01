@@ -111,9 +111,7 @@ void test01()
     py.left();
     py.content();
     cout << "+++++++++++++++++++++" << endl;
-
-
-
+    
 }
 
 int main(void)

@@ -1,19 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2020-02-26 12:36:04
- * @LastEditTime: 2020-02-26 12:36:05
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /glow/Users/apple/Desktop/BlackMa_Learning/P131/main.cpp
- */
-/*
- * @Author: your name
- * @Date: 2020-02-26 12:36:04
- * @LastEditTime: 2020-02-26 12:36:04
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: /glow/Users/apple/Desktop/BlackMa_Learning/P131/main.cpp
- */
 # include <cstdio>
 # include <iostream>
 
@@ -61,7 +45,7 @@ void test02()
     Son s2;
     s2.func();
     s2.Base::func();
-    s2.func(19);
+    s2.Base::func(19);
 }
 int main(void)
 {

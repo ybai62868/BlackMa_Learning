@@ -42,6 +42,14 @@ class Computer
                 delete m_cpu;
                 m_cpu = NULL;
             }
+            if (m_vc != NULL) {
+                delete m_vc;
+                m_vc = NULL;
+            }
+            if (m_mem != NULL) {
+                delete m_mem;
+                m_mem = NULL;
+            }
         }
     private:
         CPU * m_cpu;
