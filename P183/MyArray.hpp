@@ -53,7 +53,40 @@ class MyArray
             }
             return *this;
         }
+        // 尾插法
+        void Push_Back(const T& val) {
+            // 判断容量是否等于size
+            if (this->m_Capacity == this->m_Size) {
+                return;
+            }
+            this->pAddress[this->m_Size] = val;
+            this->m_Size++;
+        }
 
+        //尾删法
+        void Pop_Back() {
+            if (this->m_Size==0) {
+                return;
+            }
+            this->m_Size--;
+
+        }
+
+        // 通过下标的方式访问数组中的元素
+        T& operator[] (int index) {
+
+            return this->pAddress[index];
+        }
+
+        // 返回数组容量
+        int getCapacity() {
+            return this->m_Capacity;
+        }
+
+        // 返回数组大小
+        int getSize() {
+            return this->m_Size;
+        }
 
         // 析构函数
         ~MyArray() {
