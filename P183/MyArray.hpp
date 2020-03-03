@@ -47,7 +47,7 @@ class MyArray
             // 深拷贝
             this->m_Capacity = arr.m_Capacity;
             this->m_Size = arr.m_Size;
-            this->m_Capacity = new T [arr.m_Capacity];
+            this->pAddress = new T [arr.m_Capacity];
             for ( int i = 0;i < this->m_Size;i++ ) {
                 this->pAddress[i] = arr.pAddress[i];
             }
